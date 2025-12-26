@@ -119,7 +119,7 @@ export const columns: ColumnDef<User>[] = [
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <Link href={`/users/${user.id}`}>View customer</Link>
+              View customer
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

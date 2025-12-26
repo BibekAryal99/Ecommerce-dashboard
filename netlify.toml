@@ -1,0 +1,9 @@
+[build]
+  command = "pnpm run build"
+  publish = "out"
+  environment = { NEXT_TELEMETRY_DISABLED = "1" }
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
